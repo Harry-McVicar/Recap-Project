@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%
+}
+
+nav {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  padding: 0px 10px 10px 10px;
+  margin: auto 20;
+}
+
+h1, p {
+  padding: 20px;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.img-gallery img {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+iframe {
+  padding: 20px;
+}
