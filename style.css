@@ -31,12 +31,17 @@ nav a:hover {
   color: aqua;
 }
 
-.img-gallery img {
-  width: 600px;
-  height: 400px;
-  position: relative;
-  text-align: center;
+.img-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
+}
+
+img {
+  width: 90%;
+  height: 35vh;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 iframe {
